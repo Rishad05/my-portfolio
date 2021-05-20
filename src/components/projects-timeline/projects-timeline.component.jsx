@@ -20,7 +20,7 @@ const TimeLine = () => {
 
 
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-6">
 
       
 
@@ -29,7 +29,7 @@ const TimeLine = () => {
 
         <Accordion>
           <Card >
-            <img  src={kids} alt="" />
+            <img style={{ height: '20rem', width: "25rem" }}  src={kids} alt="" />
             <Accordion.Toggle
               as={Card.Header}
               eventKey="0"
@@ -88,7 +88,7 @@ const TimeLine = () => {
 
         <Accordion>
           <Card>
-            <img className="h-80" src={grocery} alt="" />
+            <img style={{ height: '20rem', width: "25rem" }}  src={grocery} alt="" />
             <Accordion.Toggle
               as={Card.Header}
               eventKey="2"
@@ -146,7 +146,59 @@ const TimeLine = () => {
 
   <Accordion>
     <Card>
-      <img className="h-80" src={dragon} alt="" />
+      <img style={{ height: '20rem', width: "25rem" }}  src={dragon} alt="" />
+      <Accordion.Toggle
+        as={Card.Header}
+        eventKey="2"
+        className="p-2 text-center accordian-main"
+      >
+        PROJECT DETAILS
+            </Accordion.Toggle>
+
+      <Accordion.Collapse eventKey="2" className="text-left" >
+        <Card.Body>
+          <strong>Title:</strong> Dragon Ryders
+                <hr />
+          <strong>Features:</strong>
+          <ul className="list-styles pt-1">
+            <li> This is a transportation booking website.</li>
+            <li>You can easily select your desire ride.</li>
+            <li>You have to have a account in order to book any ride.</li>
+            <li>There is a map where you can easily understand your position and your nearby rides.</li>
+          </ul>
+          <hr />
+        </Card.Body>
+      </Accordion.Collapse>
+    </Card>
+  </Accordion>
+
+  <div className="d-flex justify-content-between flex-nowrap text-center">
+    <Button
+      href="https://dragon-ryders.web.app/"
+      target="_blank"
+    >
+      SEE LIVE
+        </Button>
+    <Button
+      href="https://github.com/Rishad05/Dragon-Ryders"
+      target="_blank"
+    >
+     Client Code
+        </Button>
+  </div>
+</div>
+
+</div>
+
+
+      {/* <div className="col-md-4">
+
+
+<div className=" d-flex justify-content-between flex-column mt-1 bg-light p-3 m-1">
+
+  <Accordion>
+    <Card>
+      <img style={{ height: '20rem', width: "24rem" }}  src={dragon} alt="" />
       <Accordion.Toggle
         as={Card.Header}
         eventKey="2"
@@ -188,7 +240,7 @@ const TimeLine = () => {
   </div>
 </div>
 
-</div>
+</div> */}
 
 </div>
 </div>

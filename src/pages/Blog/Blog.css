@@ -1,4 +1,4 @@
-.img-resize {
+/* .img-resize {
   width: 10em;
 }
 
@@ -13,4 +13,27 @@
 .body-title-style {
   font-size: 25px;
   font-weight: 800;
+} */
+
+.img-resize {
+  width: 600px;
+  height: 200px;
+}
+
+.style {
+  font-size: 20px;
+  background: bisque;
+}
+
+.jumbo-style {
+  background-image: linear-gradient(-225deg, #d8882c 0%, #c2466f 48%, #89acd3 100%);
+}
+
+.body-title-style {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.bg-shadow{
+  box-shadow:inset 0 0 10px rgb(12, 12, 12);
 }
